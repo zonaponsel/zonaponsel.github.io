@@ -1,5 +1,5 @@
 # Site Name
-site_name: Example Docs
+site_name: ZonaPonsel
 
 # Theme
 theme:
@@ -21,16 +21,8 @@ theme:
 extra:
   # Social Profile
   social:
-    - icon: fontawesome/brands/blogger
-      link: https://www.arikhn.xyz
-    - icon: fontawesome/brands/facebook
-      link: https://facebook.com/
     - icon: fontawesome/brands/github
-      link: https://github.com/ArikHn/mkdocs-templates
-    - icon: fontawesome/brands/instagram
-      link: https://instagram.com/
-    - icon: fontawesome/brands/youtube
-      link: https://youtube.com/
+      link: https://zonaponsel.github.io
 
 # Markdown Extensions
 markdown_extensions:
@@ -47,4 +39,4 @@ plugins:
   - search
 
 # Copyright
-copyright: Copyright &copy; 2021 Example Docs
+copyright: Copyright &copy; 2021 ZonaPonsel
