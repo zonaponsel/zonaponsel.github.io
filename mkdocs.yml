@@ -1,0 +1,50 @@
+# Site Name
+site_name: Example Docs
+
+# Theme
+theme:
+  name: material
+
+  # Font Theme
+  font:
+    text: Jost
+
+  # Features
+  features:
+    - toc.separate
+
+  # Pallete
+  pallete:
+    primary: light blue
+
+# Extra Features
+extra:
+  # Social Profile
+  social:
+    - icon: fontawesome/brands/blogger
+      link: https://www.arikhn.xyz
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/
+    - icon: fontawesome/brands/github
+      link: https://github.com/ArikHn/mkdocs-templates
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/
+
+# Markdown Extensions
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      toc_depth: 3
+      permalink: true
+      slugify: !!python/name:pymdownx.slugs.uslugify
+
+# Plugins
+plugins:
+  - search
+
+# Copyright
+copyright: Copyright &copy; 2021 Example Docs
